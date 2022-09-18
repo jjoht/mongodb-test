@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/632592d08f097d261306230b
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Try to First",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/632592ea8f097d261306230e
+
+###
+
+PATCH http://localhost:3000/subscribers/6325996fbc8ac1e9e16436ff
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
